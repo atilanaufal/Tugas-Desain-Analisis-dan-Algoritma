@@ -1,0 +1,27 @@
+Algoritma: 
+Untuk menukar nilai dua variabel x dan y, kita dapat menggunakan variabel sementara.
+
+1. Siapkan piring untuk masing-masing buah, yaitu manggis dan pisang
+2. Siapkan piring 3 yang kosong
+3. Pindahkan salah satu buah ke piring kosong (buah manggis)
+4. Pindahkan buah pisang dari piring 2 ke piring 1
+5. Pindahkan buah manggis dari piring 3 ke piring 2
+
+Pseudocode:
+piring_1 = "manggis"
+piring_2 = "pisang"
+piring_3 = " "
+
+function tukar(x, y)
+  piring_3 = x
+  piring_1  = y
+  piring_2 = piring_3 
+  if  piring_2 is piring_3 
+      piring_3 = " "
+   end if
+end
+
+tukar(manggis, pisang)
+print piring_1
+print piring_2
+print piring_3
