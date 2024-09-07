@@ -1,0 +1,25 @@
+Algoritma: 
+1. Kelipatan dari 3: 3, 6, 9, 12,
+2. Kelipatan dari 4: 4, 8, 12,
+3. Cari bilangan terkecil yang sama-sama ada di kedua daftar.
+4. Tampilkan KPK
+
+Pseudocode:
+
+function find_kpk(a, b)
+  kelipatan_a = []
+  kelipatan_b = []
+  i = 1
+  while true
+    kelipatan_a.append(a * i)
+    kelipatan_b.append(b * i)
+    if kelipatan_a[i-1] in kelipatan_b
+      return kelipatan_a[i-1]
+    i = i + 1
+  end
+end
+
+kpk = find_kpk(3, 4)
+print "KPK dari 3 dan 4 adalah:", kpk
+
+

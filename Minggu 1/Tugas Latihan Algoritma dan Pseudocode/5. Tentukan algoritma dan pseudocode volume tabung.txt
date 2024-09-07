@@ -1,0 +1,15 @@
+Algoritma: Untuk mencari volume tabung, kita dapat menggunakan rumus: volume = π * r^2 * tinggi
+
+1. Nilai jari-jari adalah 3
+2. Nilai tinggi adalah 5
+3. Volume tabung adalah π x r^2 x tinggi
+4. Tampilkan volume
+
+Pseudocode:
+
+ r = 3
+ tinggi = 5
+
+ volume = 3.14 x r^2 x tinggi
+
+ print volume

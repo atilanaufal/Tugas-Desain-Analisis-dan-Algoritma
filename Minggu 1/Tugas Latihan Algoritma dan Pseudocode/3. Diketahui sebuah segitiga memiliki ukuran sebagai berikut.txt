@@ -1,0 +1,16 @@
+Algoritma: 
+Untuk mencari luas segitiga, kita dapat menggunakan rumus: luas = (alas * tinggi) / 2
+
+1. Nilai Alas adalah 25
+2. Nilai Tinggi adalah 30
+3. Luas adalah alas x tinggi / 2
+4. Tampilakan Luas
+
+Pseudocode:
+
+alas = 25
+tinggi = 30
+
+luas = (alas x tinggi) / 2
+
+print luas
