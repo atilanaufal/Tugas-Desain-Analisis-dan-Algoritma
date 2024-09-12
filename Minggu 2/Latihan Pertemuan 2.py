@@ -61,5 +61,31 @@ getSecond(a)
 getLast(a)
 
 
+#Soal 5
+x = [1, 3, 5, 7]
+print(x)
+def kalikan(list):
+  total = 1
+  for i in list:
+    total *= i
+  print(total)
+
+kalikan(x)
+
+
+#Soal 6
+x = [1, 3, 5, 7]
+print(x)
+def bagikan(list):
+  total = 1
+  for i in list:
+    total /= i
+  print(total)
+
+bagikan(x)
+
+
+
+
 
  
